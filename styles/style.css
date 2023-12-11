@@ -43,4 +43,25 @@ nav a{
 /* header related */
 .header{
     background-color: blanchedalmond;
+    
+}
+.banner{
+    margin: 30px 20px 20px 140px;
+    display: flex;
+    align-items: center;
+}
+.banner .propile-pic{
+    height: 650px;
+    width: 450px;
+    border-radius: 25px;
+    box-shadow: 20px 50px 15px 0px;
+}
+.banner-wcl{
+    font-size: 30px;
+    margin-bottom: 0;
+}
+.banner-title{
+    font-size: 82px;
+    font-weight: 800px;
+    margin-bottom: 0;
 }
