@@ -21,10 +21,12 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 150px;
     
 }
 nav > ul{
     display: flex;
+    align-items: center;
 }
 nav li {
     list-style: none;
@@ -37,4 +39,8 @@ nav a{
     font-size: 45px;
     font-weight: 800;
     color: black;
+}
+/* header related */
+.header{
+    background-color: blanchedalmond;
 }
