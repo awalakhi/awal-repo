@@ -49,12 +49,17 @@ nav a{
     margin: 30px 20px 20px 140px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.banner-con{
+    max-width: 500px;
 }
 .banner .propile-pic{
     height: 650px;
     width: 450px;
     border-radius: 25px;
-    box-shadow: 20px 50px 15px 0px;
+    box-shadow: 20px 20px 15px 0px;
 }
 .banner-wcl{
     font-size: 30px;
@@ -63,5 +68,22 @@ nav a{
 .banner-title{
     font-size: 82px;
     font-weight: 800px;
+    margin-top: 0;
     margin-bottom: 0;
+}
+/* main section */
+.about{
+padding: 130px;
+background-color: rgb(247, 227, 197);
+}
+main{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.about-inf-cont{
+    display: flex;
+    justify-content: space-around;
+}
+.about-inf{
+    text-align: center;
 }
